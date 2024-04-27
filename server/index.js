@@ -1,7 +1,7 @@
 const port = process.env.PORT || 3001;
 const io = require("socket.io")(port, {
     cors: {
-    origin: "socket-front-r0almdr0d-axel-gomezs-projects.vercel.app",
+    origin: "https://socket-front-eight.vercel.app",
     methods: ["GET", "POST"],
 }})
 
